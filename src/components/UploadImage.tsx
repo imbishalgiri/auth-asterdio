@@ -58,7 +58,6 @@ const UploadImage = ({ onFileChooseClick }: imageUploadProps) => {
             onClick={() => {
               setImageUrl("");
               setFileName("");
-              onFileChooseClick(null);
             }}
           />
         </span>
